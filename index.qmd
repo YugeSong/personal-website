@@ -1,5 +1,15 @@
 ---
 toc: false
+title: "Yuge Song"
+image: profile-pic.png
+about: 
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      url: "https://www.linkedin.com/in/yugesong/"
+      
+
 ---
 
 
