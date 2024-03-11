@@ -1,9 +1,11 @@
 {
-  "hash": "f0c677d68ad40238411be67e09262132",
+  "hash": "0e946a36a5292ceb44aebcfbabe4e094",
   "result": {
     "engine": "knitr",
-    "markdown": "\n## Yuge Song Website\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 3\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "\n## Yuge Song Website\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"hi 姐姐\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"hi 姐姐\"\n```\n\n\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

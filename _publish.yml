@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: bdcd203d-8e11-4cb5-8acb-091b0421310f
+      url: 'yuge-song.netlify.app'
