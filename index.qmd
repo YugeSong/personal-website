@@ -5,11 +5,16 @@ image: profile-pic.png
 about: 
   template: trestles
   links:
-    - icon: linkedin
-      text: LinkedIn
+    - text: LinkedIn
+      icon: linkedin
       url: "https://www.linkedin.com/in/yugesong/"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/YugeSong"
+    - text: Email
+      icon: inbox-fill
+      url: "mailto:songyuge@outlook.com"
       
-
 ---
 
 
