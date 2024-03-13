@@ -3,3 +3,11 @@ title: "Projects"
 ---
 
 Here demonstrate projects. 
+
+
+IMDB Review Sentiment Prediction
+[paper](Stats101C.pdf "paper")
+
+
+simulating data
+[paper](stats100b.pdf "paper")
