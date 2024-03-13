@@ -9,5 +9,18 @@ IMDB Review Sentiment Prediction
 [paper](Stats101C.pdf "paper")
 
 
+I led a team of 4 to design an experiment based on a simulated island to investigate the relationship between
+different activities on the “inhabitants.”
+I also used GPower to determine sample size and collect data from 168 samples and input the collected data and code
+into R, analyzed the data result and created boxplots.
 simulating data
 [paper](stats100b.pdf "paper")
+
+
+
+We cleaned 24,000+ data in an artwork collection from Carnegie Mellon Art Museum using OpenRefine.
+We also built a website with the team and created Gantt charts, symbol maps, bar plots and pie charts using Tableau for
+data visualization to draw conclusion on the changes of photography during the past 150 years.
+[https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)
+
+
