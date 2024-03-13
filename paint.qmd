@@ -1,0 +1,31 @@
+
+---
+title: Paints
+output:
+  quarto::pdf_document:
+    latex_engine: xelatex
+    main font: Roboto
+---
+
+
+Arclic paints and digital paint
+
+::: {layout-nrow=3}
+![](paint/art1.png){fig-align="middle"}
+
+![](paint/art2.png){fig-align="middle"}
+
+![](paint/art3.png){fig-align="middle"}
+![](paint/art4.png){fig-align="middle"}
+
+![](paint/art6.png){fig-align="middle"}
+
+![](paint/art7.png){fig-align="middle"}
+
+![](paint/art5.png){fig-align="middle"}
+
+:::
+
+
+
+

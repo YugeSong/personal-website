@@ -15,6 +15,8 @@ website:
         text: Gallery
       - href: blogs.qmd
         text: Blog
+      - href: paint.qmd
+        text: Artwork
       - href: photos.qmd
         text: Photography
   
