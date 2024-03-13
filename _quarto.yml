@@ -11,6 +11,13 @@ website:
         text: Projects
       - href: about.qmd
         text: Bio
+      - href: gallery.qmd
+        text: Gallery
+      - href: blogs.qmd
+        text: Blog
+  
+  page-footer: 
+    right: "&copy; 2024, Yuge Song"
 
 
 format:

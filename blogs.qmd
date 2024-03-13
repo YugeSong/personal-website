@@ -1,0 +1,16 @@
+---
+listing:
+  - id: blogs-listing
+    contents: 
+      - "/blogs/*.qmd"
+    type: table
+    fields: 
+      - title
+    categories: false
+---
+
+Below are the posts. 
+
+
+:::blogs-listing
+:::
