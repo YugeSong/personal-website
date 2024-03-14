@@ -14,32 +14,38 @@ about:
     - text: Email
       icon: inbox-fill
       url: "mailto:songyuge@outlook.com"
-      
+
 ---
+::: {.column-page}
+
+## Hi, I'm Yuge, a Statistics, Data Science, and Anthropology senior at UCLA. 
 
 
-## Bio
+## Education
 
-I am a senior at UCLA, majoring in Statistics and minoring in Anthropology. Through years of study, I have refined my collaborative skills and proficiency in data analysis. Meanwhile, my background in Anthropology deepens my appreciation for diverse cultures and individuals. I pay strong attention to detail and am naturally curious and passionate about understanding how and why things work. I am now actively seeking job opportunities that provide hands-on experience in the data field.
+**University of California, Los Angeles** | Los Angeles, CA
 
-Attached is my [cv](/docs/cv/Yuge Song Resume.pdf "cv")
-which is actually a resume for now. 
+Bachelor of Science in Statistics and Data Science | Sept 2022 - June 2024
+
+Bachelor of Science in Anthropology | Sept 2022 - June 2024
+
+**Foothill College** | Los Altos, CA
+
+Honor Scholar | Sept 2020 - June 2022
+
+<p></p>
+
+## Experience
+
+**Member of Finance Board** | ASFC Campus Council
 
 
 
-I worked as Administrative Assistant I in Foothill College International Student Programs Office from 2021 to 2022. I assisted the director of International Partner Relations to prepare partnership agreements and distribute marketing material. The work involves managing data, and I have updated a total of 300+ student and agent data into the school database. As an administrative assistant, I also designed posters for recruitment purposes using Pixelmator Pro and Procreate.
-
-I was formerly a member of Finance Board in the ASFC Campus Council during 2020 and 2021. We developed business and made partnership with the local government. Our goal was to support student activities, and we perform financial budgeting analysis bi-weekly, 
-Attached is the [annual budget ppt](/bio/Budget Presentation 2021-2022.pdf "annual budget ppt")
 
 
 
-#### Publication
-I assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional
-Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was
-published on MDPI as an open access article.
-I also helped the research team to collect a total of 150,000+ data and performed 10+ literature reviews independently, and we applied entropy method and built up a coupling coordination model to process and analyze the data set.
+Attached is my [resume](/docs/cv/Yuge Song Resume.pdf "resume").
 
-Qi, Mingzhu, Peng Miao, Ya Wang, and Yuge Song. 2022. "Research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development" Sustainability 14, no. 19: 12916. [https://doi.org/10.3390/su141912916](https://doi.org/10.3390/su141912916)
 
+:::
 

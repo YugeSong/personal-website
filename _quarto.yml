@@ -4,7 +4,7 @@ project:
 website:
   title: "YUGE SONG"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: projects.qmd
@@ -20,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: [sandstone, _variables.scss]
     css: styles.css
     toc: true
 
