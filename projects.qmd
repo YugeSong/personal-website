@@ -3,7 +3,6 @@ title: "Projects"
 ---
 
 
-
 **Photography Data Analysis** 
 
 A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.
@@ -11,6 +10,13 @@ A group of six UCLA undergraduate students in Digital Humanities 101 was tasked 
 Data we used: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collection](https://github.com/cmoa/collection)
 
 Website we built: [https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)
+
+
+
+**IMDB Review Sentiment Prediction**
+As a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
+
+Here is our [Sentiment Paper](Stats101C.pdf "Sentiment Paper"). 
 
 
 
@@ -22,15 +28,5 @@ I also used GPower to determine sample size and collect data from 168 samples an
 into R, analyzed the data result and created boxplots.
 simulating data
 [paper](stats100b.pdf "paper")
-
-
-
-IMDB Review Sentiment Prediction
-[paper](Stats101C.pdf "paper")
-
-
-This study revolves around the exploration and analysis of the IMDB Dataset of 50,000 movie reviews, designed for binary sentiment classification. The primary objective is to an- alyze the relationship between the textual con- tent of reviews and the sentiments expressed. Using a diverse array of models, including Lo- gistic Regression, K-Nearest Neighbors, Linear and Quadratic Discriminant Analysis, Random Forests, Gaussian Naive Bayes, and Support Vector Machine, we aim to uncover patterns and nuances within the language of movie re- views.
-
-
 
 
