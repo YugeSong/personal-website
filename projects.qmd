@@ -4,7 +4,7 @@ toc: false
 
 ## Projects
 
-**Photography Data Analysis** 
+### Photography Data Analysis 
 
 A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.
 
@@ -14,7 +14,7 @@ Website we built: [https://photostorians.humspace.ucla.edu/](https://photostoria
 
 
 
-**IMDB Review Sentiment Prediction**
+### IMDB Review Sentiment Prediction
 
 As a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
 
@@ -22,7 +22,7 @@ Here is our [Sentiment Paper](Stats101C.pdf "Sentiment Paper").
 
 
 
-**Simulated Experiment Design and Analysis** 
+### Simulated Experiment Design and Analysis
 
 Based on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”
 
