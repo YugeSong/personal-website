@@ -1,0 +1,15 @@
+{
+  "hash": "6522014192d5064ecde562be76568e44",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntoc: false\ntitle: \"Projects and Publications\"\n---\n\n\n### Projects\n\n\n\n::: {.cell}\n\n:::\n\n\n**Photography Data Analysis** \n\nA group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.\n\nData we used: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collection](https://github.com/cmoa/collection)\n\nWebsite we built: [https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)\n\n\n\n**IMDB Review Sentiment Prediction**\n\nAs a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. \n\nHere is our [Sentiment Paper](Stats101C.pdf \"Sentiment Paper\"). \n\n\n\n**Simulated Experiment Design and Analysis** \n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\n\nHere is our [Island Paper](stats100b.pdf \"Island Paper\")\n\n\n\n\n### Publications\n\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. [https://www.mdpi.com/1875680](https://www.mdpi.com/1875680)\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

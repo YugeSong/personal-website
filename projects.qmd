@@ -1,7 +1,8 @@
 ---
-title: "Projects"
+toc: false
 ---
 
+## Projects
 
 **Photography Data Analysis** 
 
@@ -27,4 +28,10 @@ Based on a simulated island, we designed an experiment to investigate the effect
 
 Here is our [Island Paper](stats100b.pdf "Island Paper")
 
+
+
+
+## Publications
+
+I assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. [https://www.mdpi.com/1875680](https://www.mdpi.com/1875680)
 
