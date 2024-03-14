@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Here demonstrate projects.\nIMDB Review Sentiment Prediction paper\nI led a team of 4 to design an experiment based on a simulated island to investigate the relationship between different activities on the “inhabitants.” I also used GPower to determine sample size and collect data from 168 samples and input the collected data and code into R, analyzed the data result and created boxplots. simulating data paper\nWe cleaned 24,000+ data in an artwork collection from Carnegie Mellon Art Museum using OpenRefine. We also built a website with the team and created Gantt charts, symbol maps, bar plots and pie charts using Tableau for data visualization to draw conclusion on the changes of photography during the past 150 years. https://photostorians.humspace.ucla.edu/"
+    "text": "Photography Data Analysis\nA group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.\nData we used: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\nWebsite we built: https://photostorians.humspace.ucla.edu/\nExperiment Design and Analysis\nI led a team of 4 to design an experiment based on a simulated island to investigate the relationship between different activities on the “inhabitants.” I also used GPower to determine sample size and collect data from 168 samples and input the collected data and code into R, analyzed the data result and created boxplots. simulating data paper\nIMDB Review Sentiment Prediction paper\nThis study revolves around the exploration and analysis of the IMDB Dataset of 50,000 movie reviews, designed for binary sentiment classification. The primary objective is to an- alyze the relationship between the textual con- tent of reviews and the sentiments expressed. Using a diverse array of models, including Lo- gistic Regression, K-Nearest Neighbors, Linear and Quadratic Discriminant Analysis, Random Forests, Gaussian Naive Bayes, and Support Vector Machine, we aim to uncover patterns and nuances within the language of movie re- views."
   },
   {
     "objectID": "paint.html",
@@ -47,5 +47,12 @@
     "title": "YUGE SONG",
     "section": "",
     "text": "Below are the posts.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\n\n\nPost 1\n\n\n\n\nPost 2\n\n\n\n\nPost 3\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#hi-im-yuge-a-statistics-data-science-and-anthropology-senior-at-ucla.",
+    "href": "index.html#hi-im-yuge-a-statistics-data-science-and-anthropology-senior-at-ucla.",
+    "title": "Yuge Song",
+    "section": "",
+    "text": "University of California, Los Angeles | Los Angeles, CA\nBachelor of Science in Statistics and Data Science | Sept 2022 - June 2024\nBachelor of Science in Anthropology | Sept 2022 - June 2024\nFoothill College | Los Altos, CA\nHonor Scholar | Sept 2020 - June 2022\n\n\n\n\n\nFoothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nCapital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
   }
 ]

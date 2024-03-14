@@ -2,12 +2,19 @@
 title: "Projects"
 ---
 
-Here demonstrate projects. 
 
 
-IMDB Review Sentiment Prediction
-[paper](Stats101C.pdf "paper")
+**Photography Data Analysis** 
 
+A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.
+
+Data we used: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collection](https://github.com/cmoa/collection)
+
+Website we built: [https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)
+
+
+
+**Experiment Design and Analysis** 
 
 I led a team of 4 to design an experiment based on a simulated island to investigate the relationship between
 different activities on the “inhabitants.”
@@ -18,9 +25,12 @@ simulating data
 
 
 
-We cleaned 24,000+ data in an artwork collection from Carnegie Mellon Art Museum using OpenRefine.
-We also built a website with the team and created Gantt charts, symbol maps, bar plots and pie charts using Tableau for
-data visualization to draw conclusion on the changes of photography during the past 150 years.
-[https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)
+IMDB Review Sentiment Prediction
+[paper](Stats101C.pdf "paper")
+
+
+This study revolves around the exploration and analysis of the IMDB Dataset of 50,000 movie reviews, designed for binary sentiment classification. The primary objective is to an- alyze the relationship between the textual con- tent of reviews and the sentiments expressed. Using a diverse array of models, including Lo- gistic Regression, K-Nearest Neighbors, Linear and Quadratic Discriminant Analysis, Random Forests, Gaussian Naive Bayes, and Support Vector Machine, we aim to uncover patterns and nuances within the language of movie re- views.
+
+
 
 
