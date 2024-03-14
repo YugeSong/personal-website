@@ -14,19 +14,17 @@ Website we built: [https://photostorians.humspace.ucla.edu/](https://photostoria
 
 
 **IMDB Review Sentiment Prediction**
+
 As a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
 
 Here is our [Sentiment Paper](Stats101C.pdf "Sentiment Paper"). 
 
 
 
-**Experiment Design and Analysis** 
+**Simulated Experiment Design and Analysis** 
 
-I led a team of 4 to design an experiment based on a simulated island to investigate the relationship between
-different activities on the “inhabitants.”
-I also used GPower to determine sample size and collect data from 168 samples and input the collected data and code
-into R, analyzed the data result and created boxplots.
-simulating data
-[paper](stats100b.pdf "paper")
+Based on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”
+
+Here is our [Island Paper](stats100b.pdf "Island Paper")
 
 
