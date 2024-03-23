@@ -1,0 +1,39 @@
+---
+title: "Pyrography and Acrylic Paints"
+format: html
+filters:
+   - lightbox
+lightbox: auto
+---
+
+#### Click to zoom in
+
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
+
+![](paint/25.png){group="my-gallery"}
+
+![](paint/23.png){group="my-gallery"}
+
+![](paint/20.png){group="my-gallery"}
+
+![](paint/24.png){group="my-gallery"}
+
+![](paint/18.png){group="my-gallery"}
+
+![](paint/19.png){group="my-gallery"}
+
+![](paint/22.png){group="my-gallery"}
+
+![](paint/21.png){group="my-gallery"}
+
+![](paint/1.png){group="my-gallery"}
+
+![](paint/4.png){group="my-gallery"}
+
+![](paint/3.png){group="my-gallery"}
+
+![](paint/2.png){group="my-gallery"}
+
+
+:::

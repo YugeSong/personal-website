@@ -9,7 +9,7 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects & Publications
-      - href: paint.qmd
+      - href: paint1.qmd
         text: Artwork
       - href: photos.qmd
         text: Photography
