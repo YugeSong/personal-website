@@ -11,7 +11,7 @@ lightbox: auto
 
 ::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
 
-![](paint/25.png){group="my-gallery"}
+![](paint/2.png){group="my-gallery"}
 
 ![](paint/23.png){group="my-gallery"}
 
