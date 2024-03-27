@@ -1,24 +1,48 @@
 ---
 toc: false
+title: "Projects"
+resources:
+  - "IMDB Dataset.csv"
 ---
 
 ## Projects
 
+
 ### Photography Data Analysis 
 
-A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.
+A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:
 
-Data we used: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collection](https://github.com/cmoa/collection)
+::: {}
 
-Website we built: [https://photostorians.humspace.ucla.edu/](https://photostorians.humspace.ucla.edu/)
+[![](projects/photoproject.jpg)](https://photostorians.humspace.ucla.edu/)
+
+:::
+
+Data sources: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collection](https://github.com/cmoa/collection)
+
 
 
 
 ### IMDB Review Sentiment Prediction
 
-As a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
+As a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
 
-Here is our [Sentiment Paper](Stats101C.pdf "Sentiment Paper"). 
+Here is our [Sentiment Paper](projects/Stats101C.pdf "Sentiment Paper"). 
+
+Data sources: [IMDB Dataset](projects/IMDB Dataset.csv "IMDB Dataset"), [positive sentiment](projects/positive-words.txt "positive sentiment"), and [negative sentiment](projects/negative-words.txt "negative-words").
+
+
+[Download the data](projects/IMDB Dataset.csv)
+
+```{}
+const data = await FileAttachment("IMDB Dataset.csv").csv();
+data
+```
+
+
+
+
+
 
 
 
@@ -26,7 +50,7 @@ Here is our [Sentiment Paper](Stats101C.pdf "Sentiment Paper").
 
 Based on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”
 
-Here is our [Island Paper](stats100b.pdf "Island Paper")
+Here is our [Island Paper](projects/stats100b.pdf "Island Paper")
 
 
 

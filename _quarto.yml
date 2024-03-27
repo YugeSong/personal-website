@@ -1,10 +1,14 @@
 project:
   type: website
+  resources: 
+    - "*.csv"
 
 website:
   title: "YUGE SONG"
   navbar:
     right:
+      - href: try.qmd
+        text: try
       - href: index.qmd
         text: Home
       - href: projects.qmd
@@ -20,7 +24,9 @@ website:
 
 format:
   html:
-    theme: [sandstone, _variables.scss]
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 

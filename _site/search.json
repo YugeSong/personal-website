@@ -1,42 +1,14 @@
 [
   {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
+    "objectID": "blogs.html",
+    "href": "blogs.html",
     "title": "YUGE SONG",
     "section": "",
-    "text": "hi 姐姐这是我的gallery (只有linkedin的index)"
+    "text": "Below are the posts.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\n\n\nPost 1\n\n\n\n\nPost 2\n\n\n\n\nPost 3\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "YUGE SONG",
-    "section": "",
-    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.\nData we used: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\nWebsite we built: https://photostorians.humspace.ucla.edu/\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
-  },
-  {
-    "objectID": "projects.html#projects",
-    "href": "projects.html#projects",
-    "title": "YUGE SONG",
-    "section": "",
-    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a dataset from multiple angles and presenting their research findings through an exploratory website.\nData we used: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\nWebsite we built: https://photostorians.humspace.ucla.edu/\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergrads, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
-  },
-  {
-    "objectID": "projects.html#publications",
-    "href": "projects.html#publications",
-    "title": "YUGE SONG",
-    "section": "Publications",
-    "text": "Publications\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. https://www.mdpi.com/1875680"
-  },
-  {
-    "objectID": "paint.html",
-    "href": "paint.html",
-    "title": "Paints",
-    "section": "",
-    "text": "Arclic paints and digital paint"
-  },
-  {
-    "objectID": "paint1.html",
-    "href": "paint1.html",
+    "objectID": "artwork.html",
+    "href": "artwork.html",
     "title": "Pyrography and Acrylic Paints",
     "section": "",
     "text": "Click to zoom in"
@@ -63,17 +35,38 @@
     "text": "Foothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nCapital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
   },
   {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "YUGE SONG",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Below are the posts.\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\n\n\nPost 1\n\n\n\n\nPost 2\n\n\n\n\nPost 3\n\n\n\n\n\nNo matching items"
+    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\nData sources: IMDB Dataset, positive sentiment, and negative sentiment.\nDownload the data\nconst data = await FileAttachment(\"IMDB Dataset.csv\").csv();\ndata\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
   },
   {
-    "objectID": "artwork.html",
-    "href": "artwork.html",
-    "title": "Pyrography and Acrylic Paints",
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "Projects",
     "section": "",
-    "text": "Click to zoom in"
+    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\nData sources: IMDB Dataset, positive sentiment, and negative sentiment.\nDownload the data\nconst data = await FileAttachment(\"IMDB Dataset.csv\").csv();\ndata\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
+  },
+  {
+    "objectID": "projects.html#publications",
+    "href": "projects.html#publications",
+    "title": "Projects",
+    "section": "Publications",
+    "text": "Publications\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. https://www.mdpi.com/1875680"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "YUGE SONG",
+    "section": "",
+    "text": "hi 姐姐这是我的gallery (只有linkedin的index)"
+  },
+  {
+    "objectID": "try.html",
+    "href": "try.html",
+    "title": "YUGE SONG",
+    "section": "",
+    "text": "::: {.download_btn}\n\n\n\n\n\n mtcars.csv\n\n\n\n\n iris.csv\n\n\n\n\n penguins.csv\n\n\n:::wd"
   }
 ]

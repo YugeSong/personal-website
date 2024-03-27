@@ -1,0 +1,17 @@
+{
+  "hash": "1163af43672ad88c4a40de0e28f7522c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nformat: pdf\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(1)\n```\n\n::: {.cell-output-display}\n![This caption includes a link to [a webpage](https://en.wikipedia.org/wiki/Elephant). Also, click the image to try out the application.](try_files/figure-pdf/fig-elephant2-1.pdf){#fig-elephant2 fig-pos='H'}\n:::\n:::",
+    "supporting": [
+      "try_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
