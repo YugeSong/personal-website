@@ -37,21 +37,21 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "YUGE SONG",
     "section": "",
-    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\nData sources: IMDB Dataset, positive sentiment, and negative sentiment.\nDownload the data\nconst data = await FileAttachment(\"IMDB Dataset.csv\").csv();\ndata\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
+    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Data set of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nRaw Data set: https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing\nWe concluded our findings into this Sentiment Paper.\n\n\n\nThe Airbnb data set in Los Angeles covers about 45,000 observations for hosting, and we used EDA, Geospatial Analysis, and Sentiment Analysis to investigate the relationship of all predictors with price.\nRaw Data set: http://insideairbnb.com/get-the-data/\nFindings: click to zoom in.\n\n\n\nMore graphs for analysis: extra graphs\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper."
   },
   {
     "objectID": "projects.html#projects",
     "href": "projects.html#projects",
-    "title": "Projects",
+    "title": "YUGE SONG",
     "section": "",
-    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nHere is our Sentiment Paper.\nData sources: IMDB Dataset, positive sentiment, and negative sentiment.\nDownload the data\nconst data = await FileAttachment(\"IMDB Dataset.csv\").csv();\ndata\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper"
+    "text": "A group of six UCLA undergraduate students in Digital Humanities 101 was tasked with a project of analyzing a huge dataset from multiple angles and presenting their research findings through an exploratory website:\n\n\n\nData sources: The Carnegie Museum of Art (CMOA) https://github.com/cmoa/collection\n\n\n\nAs a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Data set of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.\nRaw Data set: https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing\nWe concluded our findings into this Sentiment Paper.\n\n\n\nThe Airbnb data set in Los Angeles covers about 45,000 observations for hosting, and we used EDA, Geospatial Analysis, and Sentiment Analysis to investigate the relationship of all predictors with price.\nRaw Data set: http://insideairbnb.com/get-the-data/\nFindings: click to zoom in.\n\n\n\nMore graphs for analysis: extra graphs\n\n\n\nBased on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”\nHere is our Island Paper."
   },
   {
     "objectID": "projects.html#publications",
     "href": "projects.html#publications",
-    "title": "Projects",
+    "title": "YUGE SONG",
     "section": "Publications",
     "text": "Publications\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. https://www.mdpi.com/1875680"
   },
@@ -67,6 +67,13 @@
     "href": "try.html",
     "title": "YUGE SONG",
     "section": "",
-    "text": "::: {.download_btn}\n\n\n\n\n\n mtcars.csv\n\n\n\n\n iris.csv\n\n\n\n\n penguins.csv\n\n\n:::wd"
+    "text": "IMDB Dataset.csv\n\n\n\nlibrary(shiny)\n\npositive &lt;- readLines(\"positive-words.txt\")\n\nui &lt;- fluidPage(\n  downloadButton(\"downloadPositive\", \"Download Positive Sentiment Words\")\n)\n\nserver &lt;- function(input, output) {\n  output$downloadPositive &lt;- downloadHandler(\n    filename = function() {\n      \"positive-words.txt\"\n    },\n    content = function(file) {\n      writeLines(positive, file)\n    }\n  )\n}\n\nshinyApp(ui, server)\n\nShiny applications not supported in static R Markdown documents"
+  },
+  {
+    "objectID": "projects.html#publications-1",
+    "href": "projects.html#publications-1",
+    "title": "YUGE SONG",
+    "section": "Publications",
+    "text": "Publications\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. https://www.mdpi.com/1875680"
   }
 ]

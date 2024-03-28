@@ -1,12 +1,11 @@
 ---
 toc: false
-title: "Projects"
-resources:
-  - "IMDB Dataset.csv"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 ## Projects
-
 
 ### Photography Data Analysis 
 
@@ -25,24 +24,30 @@ Data sources: The Carnegie Museum of Art (CMOA) [https://github.com/cmoa/collect
 
 ### IMDB Review Sentiment Prediction
 
-As a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
+As a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Data set of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed. 
 
-Here is our [Sentiment Paper](projects/Stats101C.pdf "Sentiment Paper"). 
+Raw Data set: [https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing](https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing)
 
-Data sources: [IMDB Dataset](projects/IMDB Dataset.csv "IMDB Dataset"), [positive sentiment](projects/positive-words.txt "positive sentiment"), and [negative sentiment](projects/negative-words.txt "negative-words").
-
-
-[Download the data](projects/IMDB Dataset.csv)
-
-```{}
-const data = await FileAttachment("IMDB Dataset.csv").csv();
-data
-```
+We concluded our findings into this [Sentiment Paper](projects/Stats101C.pdf "Sentiment Paper"). 
 
 
 
 
+### Airbnb Data Analysis
 
+The Airbnb data set in Los Angeles covers about 45,000 observations for hosting, and we used EDA, Geospatial Analysis, and Sentiment Analysis to investigate the relationship of all predictors with price. 
+
+Raw Data set: [http://insideairbnb.com/get-the-data/](http://insideairbnb.com/get-the-data/)
+
+Findings: click to zoom in. 
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));grid-gap: 1em;"}
+
+![](projects/airposter.jpg)
+
+:::
+
+More graphs for analysis: [extra graphs](projects/extra_graph.pdf "extra graphs")
 
 
 
@@ -50,7 +55,7 @@ data
 
 Based on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”
 
-Here is our [Island Paper](projects/stats100b.pdf "Island Paper")
+Here is our [Island Paper](projects/stats100b.pdf "Island Paper").
 
 
 

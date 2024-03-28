@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>YUGE SONG - Projects</title>
+<title>YUGE SONG</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,10 +94,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./try.html"> 
-<span class="menu-text">try</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -126,23 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="projects" class="level2">
@@ -157,17 +140,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="imdb-review-sentiment-prediction" class="level3">
 <h3 class="anchored" data-anchor-id="imdb-review-sentiment-prediction">IMDB Review Sentiment Prediction</h3>
-<p>As a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Dataset of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.</p>
-<p>Here is our <a href="projects/Stats101C.pdf" title="Sentiment Paper">Sentiment Paper</a>.</p>
-<p>Data sources: <a href="projects/IMDB Dataset.csv" title="IMDB Dataset">IMDB Dataset</a>, <a href="projects/positive-words.txt" title="positive sentiment">positive sentiment</a>, and <a href="projects/negative-words.txt" title="negative-words">negative sentiment</a>.</p>
-<p><a href="projects/IMDB Dataset.csv">Download the data</a></p>
-<pre><code>const data = await FileAttachment("IMDB Dataset.csv").csv();
-data</code></pre>
+<p>As a team of 4 UCLA Statistics and Data Science undergraduates, we analyzed the IMDB Data set of 50,000 movie reviews and studied the relationship between the textual content of reviews and the sentiments expressed.</p>
+<p>Raw Data set: <a href="https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing">https://drive.google.com/drive/folders/15rhdfkfIeTy9yK2jL00cExFm8qX0_BUI?usp=sharing</a></p>
+<p>We concluded our findings into this <a href="projects/Stats101C.pdf" title="Sentiment Paper">Sentiment Paper</a>.</p>
+</section>
+<section id="airbnb-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="airbnb-data-analysis">Airbnb Data Analysis</h3>
+<p>The Airbnb data set in Los Angeles covers about 45,000 observations for hosting, and we used EDA, Geospatial Analysis, and Sentiment Analysis to investigate the relationship of all predictors with price.</p>
+<p>Raw Data set: <a href="http://insideairbnb.com/get-the-data/">http://insideairbnb.com/get-the-data/</a></p>
+<p>Findings: click to zoom in.</p>
+<div style="display: grid;grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));grid-gap: 1em;">
+<p><a href="projects/airposter.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="projects/airposter.jpg" class="img-fluid"></a></p>
+</div>
+<p>More graphs for analysis: <a href="projects/extra_graph.pdf" title="extra graphs">extra graphs</a></p>
 </section>
 <section id="simulated-experiment-design-and-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="simulated-experiment-design-and-analysis">Simulated Experiment Design and Analysis</h3>
 <p>Based on a simulated island, we designed an experiment to investigate the effects of different activities on the “inhabitants.”</p>
-<p>Here is our <a href="projects/stats100b.pdf" title="Island Paper">Island Paper</a></p>
+<p>Here is our <a href="projects/stats100b.pdf" title="Island Paper">Island Paper</a>.</p>
 </section>
 </section>
 <section id="publications" class="level2">
@@ -745,6 +735,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

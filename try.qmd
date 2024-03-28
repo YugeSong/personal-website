@@ -1,4 +1,4 @@
-::: {.download_btn}
+
 
 ```{css}
 #| echo: false
@@ -25,44 +25,47 @@
 
 library(downloadthis)
 
-mtcars %>%
+IMDB <- read.csv("IMDB Dataset.csv")
+
+IMDB %>%
   download_this(
-    output_name = "mtcars data set",
+    output_name = "IMDB Data Set",
     output_extension = ".csv",
-    button_label = "mtcars.csv",
+    button_label = "IMDB Dataset.csv",
     button_type = "default",
     has_icon = TRUE,
     icon = "fa fa-file-csv"
   )
+
 ```
+
+
 
 
 ```{r}
-#| echo: false
+library(shiny)
 
-iris %>%
-  download_this(
-    output_name = "Iris data set",
-    output_extension = ".csv",
-    button_label = "iris.csv",
-    button_type = "default",
-    has_icon = TRUE,
-    icon = "fa fa-file-csv"
+positive <- readLines("positive-words.txt")
+
+ui <- fluidPage(
+  downloadButton("downloadPositive", "Download Positive Sentiment Words")
+)
+
+server <- function(input, output) {
+  output$downloadPositive <- downloadHandler(
+    filename = function() {
+      "positive-words.txt"
+    },
+    content = function(file) {
+      writeLines(positive, file)
+    }
   )
+}
+
+shinyApp(ui, server)
+
 ```
 
-```{r}
-#| echo: false
 
-palmerpenguins::penguins %>%
-  download_this(
-    output_name = "penguins data set",
-    output_extension = ".csv",
-    button_label = "penguins.csv",
-    button_type = "default",
-    has_icon = TRUE,
-    icon = "fa fa-file-csv"
-  )
-```
 
-:::wd
+

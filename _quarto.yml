@@ -1,14 +1,10 @@
 project:
   type: website
-  resources: 
-    - "*.csv"
 
 website:
   title: "YUGE SONG"
   navbar:
     right:
-      - href: try.qmd
-        text: try
       - href: index.qmd
         text: Home
       - href: projects.qmd
