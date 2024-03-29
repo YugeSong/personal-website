@@ -1,10 +1,15 @@
-
 ---
-title: My Photography
+title: "Photography"
+filters:
+   - lightbox
+lightbox: auto
 output:
   quarto::pdf_document:
     latex_engine: xelatex
 ---
+
+
+#### Click to zoom in
 
 ::: {#china layout-ncol=2}
 
