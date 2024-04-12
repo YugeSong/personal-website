@@ -18,21 +18,28 @@
     "href": "index.html",
     "title": "Yuge Song",
     "section": "",
-    "text": "University of California, Los Angeles | Los Angeles, CA\nBachelor of Science in Statistics and Data Science | Sept 2022 - June 2024\nBachelor of Science in Anthropology | Sept 2022 - June 2024\nFoothill College | Los Altos, CA\nHonor Scholar | Sept 2020 - June 2022\n\n\n\n\n\nFoothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nCapital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
+    "text": "University of California, Los Angeles | Los Angeles, CA\nBachelor of Science in Statistics and Data Science | Sept 2022 - June 2024\nMINOR in Anthropology | Sept 2022 - June 2024\nFoothill College | Los Altos, CA\nHonor Scholar | Sept 2020 - June 2022\n\n\n\n\n\nCapital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nFoothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Yuge Song",
     "section": "",
-    "text": "University of California, Los Angeles | Los Angeles, CA\nBachelor of Science in Statistics and Data Science | Sept 2022 - June 2024\nBachelor of Science in Anthropology | Sept 2022 - June 2024\nFoothill College | Los Altos, CA\nHonor Scholar | Sept 2020 - June 2022"
+    "text": "University of California, Los Angeles | Los Angeles, CA\nBachelor of Science in Statistics and Data Science | Sept 2022 - June 2024\nMINOR in Anthropology | Sept 2022 - June 2024\nFoothill College | Los Altos, CA\nHonor Scholar | Sept 2020 - June 2022"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Yuge Song",
     "section": "",
-    "text": "Foothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nCapital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
+    "text": "Capital University of Economics and Business, Population and Economic Research Center\nResearch Assistant | March 2022 - Oct 2022\nFoothill College International Student Programs Office\nAdministrative Assistant I | Sept 2021 - June 2022\nASFC Campus Council\nBudget Analyst of Finance Board | Sept 2021 - June 2022\nFor more details, here is my resume."
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "Photography",
+    "section": "",
+    "text": "Click to zoom in"
   },
   {
     "objectID": "projects.html",
@@ -68,12 +75,5 @@
     "title": "YUGE SONG",
     "section": "",
     "text": "IMDB Dataset.csv\n\n\n\nlibrary(shiny)\n\npositive &lt;- readLines(\"positive-words.txt\")\n\nui &lt;- fluidPage(\n  downloadButton(\"downloadPositive\", \"Download Positive Sentiment Words\")\n)\n\nserver &lt;- function(input, output) {\n  output$downloadPositive &lt;- downloadHandler(\n    filename = function() {\n      \"positive-words.txt\"\n    },\n    content = function(file) {\n      writeLines(positive, file)\n    }\n  )\n}\n\nshinyApp(ui, server)\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "projects.html#publications-1",
-    "href": "projects.html#publications-1",
-    "title": "YUGE SONG",
-    "section": "Publications",
-    "text": "Publications\nI assisted Dr. Qi in her research on the Coupling and Coordination of Systems of Citizenization, Regional Economy, and Public Service in China from the Perspective of Sustainable Development. The research report was published on MDPI as an open access article. https://www.mdpi.com/1875680"
   }
 ]
