@@ -18,8 +18,7 @@ about:
 ---
 ::: {.column-page}
 
-## Hi, I'm Yuge, a Statistics, Data Science, and Anthropology senior at UCLA. 
-
+## Hi, I'm Yuge, a Statistics & Data Science graduate from UCLA.
 
 ## Education
 
