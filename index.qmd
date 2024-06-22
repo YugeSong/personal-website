@@ -18,13 +18,13 @@ about:
 ---
 ::: {.column-page}
 
-## Hi, I'm Yuge, a Statistics & Data Science graduate from UCLA.
+## Hi, I'm Yuge, a Statistics & Data Science graduate from UCLA. 
 
 ## Education
 
 **University of California, Los Angeles** | Los Angeles, CA
 
-Bachelor of Science in Statistics and Data Science | Sept 2022 - June 2024
+Bachelor of Science in Statistics & Data Science | Sept 2022 - June 2024
 
 Minor in Anthropology | Sept 2022 - June 2024
 
